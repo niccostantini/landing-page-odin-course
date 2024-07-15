@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0px;
 }
 
 .header, .top {
@@ -23,8 +24,17 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 20px;
     font-weight: 900;
+}
+
+#letterlogo {
+    font-size: 40px;
+    color: #3882f6;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #f9faf8;
 }
 
 .nav {
@@ -100,11 +110,96 @@ a {
 .thumbnails {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-around;
+    gap: 50px;
+    padding: 50px 0 40px 0;
 }
 
-.thumbnails img {
-    
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 190px;
+}
+
+.imgt {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+    border: 3px solid #3882f6;
+}
+
+.midTwo {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 90px 300px 60px 300px;
+    justify-items: right;
+    align-items: center;
+    font-size: 36PX;
+    font-style: italic;
+    font-weight:300;
+    color: #1f2937;
+    gap: 10px;
+}
+
+.quote {
+    text-align: left;
+}
+
+.autor {
+    font-size: 0.65em;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 70px;
+    align-self: flex-end;
+}
+
+.midThree {
+    padding: 80px 300px;
+}
+
+.cta {
+    padding:  30px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+.cta-text {
+    font-weight: 300;
+}
+
+.cta .signup {
+    border-color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#f9faf8;
+    padding: 40px 0;
 }
