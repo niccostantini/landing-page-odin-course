@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header, .top {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 42px 0 42px;
+}
+
+.nav, .logo {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nav {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+.top {
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    padding: 70px 230px 70px 230px;
+
+    color: #f9faf8;
+    font-size: 18px;
+    gap: 70px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainHero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bolder;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.secondHero {
+    display: flex;
+    text-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.sewing {
+    height: auto;
+    width: 400px;
+}
+
+.info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoHeader {
+    color: #1F2937;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thumbnails img {
+    
+}
